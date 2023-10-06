@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class AryGenrc {
+	private static Collection<Integer> value;
+
+	public static void main(String args[]) {
+		Collection <Integer> values=new ArrayList <Integer>();
+		value.add(4);
+		value.add(3);
+		value.add(2);
+		value.add("siri");
+		value.add(4.5);
+		System.out.println(values);
+		
+	}
+}

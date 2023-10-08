@@ -1,0 +1,200 @@
+
+public class Arithmitic {
+/*{
+		
+		//ADDITION
+		public static void main(String args[]) 
+	
+	
+		
+		
+		int x=35476;
+		int y=34545;
+		int z=x+y;
+		System.out.println(z);
+		
+	 }*/
+	
+	
+	  /*  // SUBTRACTION
+	{
+	int x=35476;
+	int y=34545;
+	int z=x-y;
+	System.out.println(z);
+
+	}  */
+
+	
+	
+	//  MULTIPLICATION
+	/*{
+		int x=35476;
+		int y=34545;
+		int z=x*y;
+		System.out.println(z);
+	
+	}  */
+
+	
+	// DIVISION
+	/*{
+		int x=35476;
+		int y=34545;
+		int z=x/y;
+		System.out.println(z);
+
+	}*/
+	
+	
+/*	// MODULE
+	{
+	int x=35476;
+	int y=34545;
+	int z=x%y;
+	System.out.println(z);
+	}*/
+
+	                                    //ARITHMITIC OPERATIONS
+	 /*{
+	
+	int a=54;
+	int b=89;
+	System.out.println("a+b="+(a+b));
+	System.out.println("a-b="+(a-b));
+	System.out.println("a*b="+(a*b));
+	System.out.println("a/b="+(a/b));
+	System.out.println("a%b="+(a%b));
+	
+} */
+	
+	
+/*	{                               //COMPOUND1
+	int a=5;
+	int b=4;
+	int c;
+	c=a+b;
+	System.out.println("a+=b=" + (c));
+	c=a-b;
+	System.out.println("a-=b=" + (c));
+	c=a*b;
+	System.out.println("a*=b=" + (c));
+	c=a/b;
+	System.out.println("a/=b=" + (c));
+	c=a%b;
+	System.out.println("a%=b=" + (c));
+	}*/
+	
+	                               //COMPOUND2
+	/*{                              
+		int a=54;
+		int b=49;
+		int c;
+		c=a+b;
+		System.out.println("a+=b=" + (c));
+		c=a-b;
+		System.out.println("a-=b=" + (c));
+		c=a*b;
+		System.out.println("a*=b=" + (c));
+		c=a/b;
+		System.out.println("a/=b=" + (c));
+		c=a%b;
+		System.out.println("a%=b=" + (c));
+		}*/
+	
+  /*	{                                  //RELATIONAL
+	int a=4;
+	int b=6;
+	System.out.println("a>b="+ (a>b));
+	System.out.println("a<b="+ (a<b));
+	System.out.println("a>=b="+ (a>=b));
+	System.out.println("a<=b="+ (a<=b));
+	System.out.println("a==b="+ (a==b));
+	System.out.println("a!=b="+  (a!=b));
+	}  */
+	
+	/* {
+	int a=600;
+	int b=9876;
+	System.out.println("a>b="+ (a>b));
+	System.out.println("a<b="+ (a<b));
+	System.out.println("a>=b="+ (a>=b));
+	System.out.println("a<=b="+ (a<=b));
+	System.out.println("a==b="+ (a==b));
+	System.out.println("a!=b="+  (a!=b));
+	}  */
+	
+	{                                   //LOGICAL
+	int a=4;
+	int b=13;
+	int c=9;
+	if((a>b)&&(b<c))
+	{
+		System.out.println("a>b&&b>c:" +(a>b&&b>c) );
+	}
+	if((a<b)||(b>c))
+	{
+		System.out.println("a<b||b<c:" +(a<b||b<c) );
+	}
+	
+	}
+	
+	/*{                                   //LOGICAL2
+		int a=24;
+		int b=14;
+		int c=9;
+		if((a>b)&&(b<c))
+		{
+			System.out.println("a>b&&b>c:" +(a>b&&b>c) );
+		}
+		if((a<b)||(b>c))
+		{
+			System.out.println("a<b||b<c:" +(a<b||b<c) );
+		} 
+    }*/
+	
+	
+	/*{                                     //CONDITIONAL
+	int a=4;
+	int b=a<5 ?453:654;
+	System.out.println((b));
+	}*/
+	
+	/*{
+		int a=23;
+		int b=a<5 ?453:654;
+		System.out.println((b));
+		}*/
+	
+	/*{                                  //INCREMENT AND DECRIMENT
+	int a=4;
+	a++;
+	++a;
+	System.out.println(a);
+	}*/
+	
+	/*{
+	int a=4;
+	a--;
+	--a;
+	System.out.println(a);
+	}*/
+	
+	/*{                                  //INCREMENT AND DECRIMENT
+	int a=2;
+	a++;
+	++a;
+	System.out.println(a);
+	}*/
+	
+	{
+	int a=9;
+	a--;
+	--a;
+	System.out.println(a);
+	}
+}
+	
+
+	                           
+

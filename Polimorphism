@@ -1,0 +1,98 @@
+abstract class Iphone11
+{
+	public void call()
+{
+	System.out.println("calling");
+}
+	abstract public void  message();
+	abstract public void  music ();
+	abstract public void  videos ();
+	abstract public void  images();
+	abstract public void  games();
+	
+}
+abstract class Iphone12 extends Iphone11
+{
+	public void call()
+{
+	System.out.println("calling");
+}
+
+	public void message()
+{
+	System.out.println("message");
+}
+
+	public void music()
+{
+	System.out.println("music");
+}
+	abstract public void  videos ();
+	abstract public void  images();
+	abstract public void  games();
+}
+abstract class Iphone13 extends Iphone12
+{
+	public void call()
+{
+	System.out.println("calling");
+}
+
+	public void message()
+{
+	System.out.println("message");
+}
+
+	public void music()
+{
+	System.out.println("music");
+}
+	public void videos()
+	{
+		System.out.println("videos");
+	}
+	abstract public void  images();
+	abstract public void  games();
+}
+ class Iphone14 extends Iphone13
+{
+	public void call()
+{
+	System.out.println("calling");
+}
+
+	public void message()
+{
+	System.out.println("message");
+}
+
+	public void music()
+{
+	System.out.println("music");
+}
+	public void videos()
+	{
+		System.out.println("videos");
+	}
+	public void images()
+	{
+		System.out.println("images");
+	}
+	public void games()
+	{
+		System.out.println("games");
+	}
+}
+
+public class Abstraction1 {
+	public static void main(String []args) {
+		Iphone14 obj= new Iphone14();
+		obj.call   ();
+		obj.message();
+		obj.music  ();
+		obj.videos ();
+		obj.images ();
+		obj.games  ();
+	}
+
+}

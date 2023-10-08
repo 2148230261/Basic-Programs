@@ -1,0 +1,37 @@
+/*  ### Catch
+
+import java.util.*;
+public class Catch1 {
+	 public static void main(String args[]){
+	 int a,b,c=0;
+	 Scanner S=new Scanner(System.in);
+	 System.out.println("enter a values");
+	 a=S.nextInt();
+	 System.out.println("enter b values");
+	 b=S.nextInt();
+	 c=a/b;
+	 System.out.println("output is:");
+	 }
+	 }
+
+*/
+
+
+
+#####  Obclass
+
+
+class Siri
+{
+	int i;
+}
+public class OBclass1 {
+public static void main(String args[]) {
+	{
+		Siri ds=new Siri();
+		ds.i=9;
+		System.out.println(ds.i);
+	}
+}
+}
+

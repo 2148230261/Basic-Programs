@@ -1,0 +1,66 @@
+/*  ## single 
+
+
+
+class Mounika
+{
+	public void show()
+	{
+		 System.out.println("How are you");
+	}
+}
+public class Single1 {
+	public static void main(String[] args) {
+		Siri obj = new Siri();
+		obj.display();
+		Mounika obj1 = new Mounika();
+	class Siri
+{
+	public void display()
+	{
+		System.out.println("Hello");
+	}
+}	obj1.show();
+	}
+
+}
+*/
+
+
+####   MULTY
+/*
+class Siriii
+{
+	public void display()
+	{
+		System.out.println("Hello");
+	}
+}
+class Mouniii extends Siriii{
+	public void show()
+	{
+		 System.out.println("How are you");
+	}
+}
+ class Simo extends Mouniii{
+	 public void key()
+	 {
+		 System.out.println("I am fine");
+	 }
+ }
+public class Multy1 {
+	public static void main(String[] args) {
+		
+		Simo obj1 = new Simo();
+		obj1.show();		
+		obj1.display();
+		obj1.key();
+		
+	}
+}
+*/
+
+
+
+
+

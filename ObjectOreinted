@@ -19,7 +19,7 @@ public class Catch1 {
 
 
 #####  Obclass
-
+/*
 
 class Siri
 {
@@ -33,5 +33,27 @@ public static void main(String args[]) {
 		System.out.println(ds.i);
 	}
 }
+}   */
+
+
+########
+
+class Mouni
+{
+	int k;
+	public void details()
+	{
+		System.out.println("hello");
+	}
 }
+public class OBclass2 {
+	public static void main(String args[]) {
+		Mouni ds=new Mouni();
+		ds.k=67;
+		System.out.println(ds.k);
+		ds.details();	}
+
+}
+
+
 
